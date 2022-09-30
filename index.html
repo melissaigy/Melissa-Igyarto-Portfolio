@@ -4,37 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css"/>
+    <script src="https://kit.fontawesome.com/e344c66380.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Melissa Igyarto</title>
-    <link rel="stylesheet" href="assets/reset.css" />
-    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Melissa Igyarto</h1>
-      <nav>
-        <ul>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
-    <article class="content">
-        <section id="About">
-            <h2>About me</h2>
-            <p>I got my first taste of coding in an intro to programming class at Daytona state and I fell in love. I love working with technology and figuring out how things works.</p>
-        </section>
-        <section id="Work">
-            <h2>Work</h2>
-        </section>
-        <section id="Contact">
-            <h2>Contact</h2>
-        </section>
-        <section id="Resume">
-            <h2>Resume</h2>
-        </section>
-
-    </article>
+    <div class="hero">
+      <header>
+        <nav>
+          <h1 class="name">Melissa Igyarto</h1>
+          <ul>
+            <li><a href="#About">About me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Resume">Resume</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <section class="grid-container">
+    <div class="grid-item">
+        <h2 id="About">About Me</h2>
+    </div>
+    <div class="grid-item">        
+        <img src="./assets/photos/silkscrop.jpg" class="img1" alt="A girl wrapped in a blue aerial ribbon with a black background">
+        <h3>I am a problem solver in the air and behind the keyboard</h3>
+        <br>
+        <p class="content-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, suscipit. Accusantium labore fugit ipsam veniam quos ducimus quas quisquam consectetur nemo sunt, mollitia adipisci molestiae modi quod cum eius commodi!</p>
+    </div>
+    <div class="grid-item">
+        <h2 id="Projects">Projects</h2>
+    </div>
+    <div class="grid-item">
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum est, distinctio beatae consequuntur nostrum autem dignissimos aperiam iusto fuga incidunt eum odit nulla veritatis perspiciatis dolor obcaecati magnam rem consectetur!</p>
+    </div>
+    <div class="grid-item">
+        <h2 id="Contact">Contact Me</h2>
+    </div>
+    <div class="grid-item">
+        <img src="./assets/photos/yellowshirtcrop.jpg" class="img2" alt="A girl with red hair and a black hat wearing a yellow shirt">
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum est, distinctio beatae consequuntur nostrum autem dignissimos aperiam iusto fuga incidunt eum odit nulla veritatis perspiciatis dolor obcaecati magnam rem consectetur!</p>
+    </div>
+    <div class="grid-item">
+        <h2 id="Resume">Resume</h2>
+    </div>
+    <div class="grid-item">
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum est, distinctio beatae consequuntur nostrum autem dignissimos aperiam iusto fuga incidunt eum odit nulla veritatis perspiciatis dolor obcaecati magnam rem consectetur!</p>
+    </div>
+</section>
   </body>
 </html>
