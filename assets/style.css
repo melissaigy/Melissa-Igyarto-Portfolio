@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-image: url(photos/pexels-aarti-vijay-2693529.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #0D7495;
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 200%;
+    color: #000;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  nav a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+  }
